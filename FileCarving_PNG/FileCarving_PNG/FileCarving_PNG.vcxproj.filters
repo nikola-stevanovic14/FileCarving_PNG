@@ -36,6 +36,9 @@
     <ClCompile Include="ByteHexConverter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Carver_ModifiedHeaderLen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Storage.h">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ByteHexConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carver_ModifiedHeaderLen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

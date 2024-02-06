@@ -1,8 +1,11 @@
 #include "Carver_HeaderFooter.h"
+#include "Carver_ModifiedHeaderLen.h"
 #include "FileHelper.h"
 
 int main()
 {
+    bool isHeaderFooterCarver = false;
+
     /*std::tuple<char*, int> jpgTuple= FileHelper::ReadBytesFromFile("tesla.jpg");
     char* jpgBytes = std::get<0>(jpgTuple);
     int jpgNumBytes = std::get<1>(jpgTuple);
@@ -32,8 +35,10 @@ int main()
     char* bytesNum = std::get<0>(discTuple);
     int bytes = std::get<1>(discTuple);
     Storage* disc = new Storage(bytes, bytesNum);
-    Carver* headerFooterCarver = new Carver_HeaderFooter(disc);
-    headerFooterCarver->DoCarving();
+    Carver* carver;
+    if (isHeaderFooterCarver) carver = new Carver_HeaderFooter(disc);
+    else carver = new Carver_ModifiedHeaderLen(disc);
+    carver->DoCarving();
 
     return 0;
 }

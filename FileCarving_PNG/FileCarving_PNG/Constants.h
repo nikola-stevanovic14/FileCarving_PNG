@@ -10,4 +10,7 @@ static class Constants
 
 		static std::string IHDR_HEX;
 		static std::string IEND_HEX;
+		static std::string IDAT_HEX;
+		static std::string IEND_SIG_HEX;
+
 };

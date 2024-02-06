@@ -142,6 +142,7 @@
     <ClCompile Include="ByteHexConverter.cpp" />
     <ClCompile Include="Carver.cpp" />
     <ClCompile Include="Carver_HeaderFooter.cpp" />
+    <ClCompile Include="Carver_ModifiedHeaderLen.cpp" />
     <ClCompile Include="Constants.cpp" />
     <ClCompile Include="FileHelper.cpp" />
     <ClCompile Include="main.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="ByteHexConverter.h" />
     <ClInclude Include="Carver.h" />
     <ClInclude Include="Carver_HeaderFooter.h" />
+    <ClInclude Include="Carver_ModifiedHeaderLen.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="FileHelper.h" />
     <ClInclude Include="Storage.h" />
