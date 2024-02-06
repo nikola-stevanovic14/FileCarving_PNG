@@ -21,6 +21,10 @@ void Carver_HeaderFooter::DoCarving()
 	ParseAndSaveResults();
 }
 
+
+// The commented code below works with hex. It could be useful for testing. The algorithm 
+// was firstly implemented using this code. Then, logic was switched to the bytes.
+
 //void Carver_HeaderFooter::FindHeaders()
 //{
 //	std::string hexBytes = _storage->HexString();

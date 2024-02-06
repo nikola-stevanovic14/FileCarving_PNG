@@ -40,7 +40,6 @@ std::tuple<int, int> Carver_ModifiedHeaderLen::FindNextFile(int startingPosition
 			}
 			if (isHeader)
 			{
-				//find IDAT and based on len extract the entire file
 				int chunkStart = i
 					+ 8 //8B PNG signature
 					+ 4 //4B IHDR len field
